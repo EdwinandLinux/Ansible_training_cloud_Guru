@@ -1,0 +1,2 @@
+ # Run the command to gather facts about the localhost  with the Module setup and save those information to /tmp/facts
+ansible -m setup --tree /tmp/facts localhost

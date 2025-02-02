@@ -1,0 +1,16 @@
+# Use cases
+- File transfer
+- Package Management
+- Users and groups management
+- Managing services
+- Fact gathering
+- General System Information
+- Software deployment by Git
+- Playbook creation testing
+
+# Examples
+# ansible host -i inventory_file -m module -a "arguments"
+# ansible -i inventory/inventory.ini all -m ping
+# ansible host_1 -i inventory/inventory.ini -m setup 
+# ansible host_2 -i inventory/inventory.ini -m copy -a "src=home/user_name/ansible/file_to_copy dest=/tmp"
+# anssible host_2 -a "ls -l /tmp"

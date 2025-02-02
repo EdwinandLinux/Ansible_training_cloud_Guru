@@ -1,9 +1,11 @@
 # Install httpd with Ansible 
 ansible -m yum  -a "name=httpd state=present" localhost --become
 # Check the installation of httpd
-rpm -q httpd
+# rpm -q httpd
 
 # Remove tcpdump with Ansible
-ansible -m yum -a "name=tcpdump state=absent" localhost --become
+# ansible -m yum  -a "name=tcpdump state=absent" localhost  --become
+
 # Check the removal of tcpdump
-rpm -q tcpdump
+ 
+ # rpm -q tcpdump

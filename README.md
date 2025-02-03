@@ -8,3 +8,6 @@
 
  **Step I:** 
 ## Install Ansible on the control host
+
+ **Step II:** 
+## Create an ansible user on both the control host and workstation host being sure to set a password you can remember

@@ -2,9 +2,9 @@
 
 **Requirements:** 
 
-              _Install two servers using VM (VirtualBox or RHEL9)_
+              Install two servers using VM (VirtualBox or RHEL9)
 
-              _Make sure your system has Python installled_
+              Make sure your system has Python installled
 
  **Step I:** 
 ## Install Ansible on the control host

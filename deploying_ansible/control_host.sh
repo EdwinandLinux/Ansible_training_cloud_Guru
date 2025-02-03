@@ -18,6 +18,13 @@ ssh-copy-id workstation
 # Create a simple inventory in /home/ansible/inventory 
 # consisting of only the workstation host
 sudo su - ansible
-
 pwd # /home/ansible
 sudo vim inventory # add this: workstation
+
+# Write an Ansible playbook in /home/ansible/git-setup.yml 
+# on the control node that installs git on workstat
+sudo su - ansible 
+sudo vim git-setup.yml
+
+# Run the playbook
+ansible-playbook -i inventory git-setup.yml

@@ -20,3 +20,6 @@
 
 **Step V:** 
 ## Create a simple inventory in /home/ansible/inventory consisting of only the workstation host
+
+**Step VI:**
+## Write an Ansible playbook in /home/ansible/git-setup.yml on the control node that installs git on workstation then execute the playbook

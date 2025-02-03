@@ -17,3 +17,6 @@
 
 **Step IV:** 
 ## Configure the Ansible user on the workstation host so that Ansible may   sudo without a password
+
+**Step V:** 
+## Create a simple inventory in /home/ansible/inventory consisting of only the workstation host

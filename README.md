@@ -11,3 +11,6 @@
 
  **Step II:** 
 ## Create an ansible user on both the control host and workstation host being sure to set a password you can remember
+
+**Step III:** 
+## Configure a pre-shared key for Ansible that allows the user to log in from control to workstation without a password.

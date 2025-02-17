@@ -1,8 +1,0 @@
---- # Install Git on Workstation host
-- hosts: workstation
-  become: yes
-  tasks: 
-  - name: install git
-    yum:
-     name: git
-     state: latest

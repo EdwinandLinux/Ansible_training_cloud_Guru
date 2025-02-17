@@ -49,9 +49,10 @@ ssh-copy-id ansible@managed_node_ip
 sudo vim /etc/ansible/hosts
 ```
 [web]
+
 managed_node_ip
 
 #### e - Test connectivity
 ```
 ping all -m ping
-`` 
+```
